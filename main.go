@@ -10,7 +10,6 @@ type Movie struct {
 	Descripion string `json:"descripion"`
 	
 }
-
 var movies = []Movie{}
 
 func CreateMovie(c *gin.Context) {
