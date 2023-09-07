@@ -1,0 +1,52 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Exemplo de API",
+    "description": "Uma API de exemplo usando Swagger",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/exemplo": {
+      "get": {
+        "summary": "Obter um item",
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Item encontrado",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer",
+                  "format": "int32",
+                  "example": 1
+                },
+                "title": {
+                  "type": "string",
+                  "example": "Exemplo"
+                },
+                "description": {
+                  "type": "string",
+                  "example": "Isso é um exemplo"
+                },
+                "year": {
+                  "type": "integer",
+                  "format": "int32",
+                  "example": 2023
+                },
+                "created_at": {
+                  "type": "string",
+                  "example": "2023-09-06T12:00:00Z"
+                },
+                "updated_at": {
+                  "type": "string",
+                  "example": "2023-09-06T12:30:00Z"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
