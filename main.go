@@ -8,6 +8,8 @@ type Movie struct {
 	ID         int    `json:"id"`
 	Title      string `json:"tilte"`
 	Descripion string `json:"descripion"`
+	Version    string `json:"version"`
+
 	
 }
 var movies = []Movie{}
