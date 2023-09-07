@@ -5,6 +5,7 @@
     "description": "Uma API de exemplo usando Swagger",
     "version": "1.0.0"
   },
+  
   "paths": {
     "/exemplo": {
       "get": {
